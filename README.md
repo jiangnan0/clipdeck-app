@@ -9,6 +9,10 @@
   <b>Windows 安装包仅 3 MB</b> —— 不是动辄上百 MB 的 Electron 应用。
 </p>
 
+<p align="center">
+  <img src="docs/hero.png" width="380" alt="ClipDeck 主界面">
+</p>
+
 ---
 
 ## 下载 Download
@@ -22,6 +26,15 @@
 | **Windows** | `ClipDeck_x.x.x_x64-setup.exe`（推荐）或 `.msi` |
 | **macOS (Apple Silicon)** | `ClipDeck_x.x.x_aarch64.dmg` |
 
+## ⚠️ 安装时提示"来源不明 / 无法验证"？这不是病毒，正常现象
+
+测试版**还没买代码签名证书**，所以系统会拦一下。按下面点两下就能装：
+
+- **Windows**：弹出蓝色"Windows 已保护你的电脑" → 点左下角 **"更多信息" → "仍要运行"**。
+- **macOS**：提示"无法打开，因为 Apple 无法检查" → 在访达里**右键点 App →"打开"**，或到 **系统设置 → 隐私与安全性** 点 **"仍要打开"**。
+
+> 正式版会做签名/公证，届时不再有此提示。
+
 ## 它能做什么 Features
 
 - **剪贴历史**：文本 / 图片 / 富文本，自动去重、最近用过的置顶、收藏常用片段
@@ -32,12 +45,12 @@
 - **多语言 / 多主题**，无边框轻浮层界面
 - **跨设备同步**（完整版）：通过你自己的网盘文件夹端到端加密同步，全程不经任何服务器
 
-## 安装提示（重要）
-
-测试版**尚未做代码签名**，系统会提示"来源不明"，这是正常的，按下面操作即可：
-
-- **Windows**：双击安装时若弹出蓝色"Windows 已保护你的电脑" → 点 **"更多信息" → "仍要运行"**。
-- **macOS**：若提示"无法打开，因为 Apple 无法检查" → 在"访达"里**右键点 App → 打开**，或到 **系统设置 → 隐私与安全性** 点"仍要打开"。
+<p align="center">
+  <img src="docs/format-json.png" width="330" alt="JSON 一键格式化">
+  &nbsp;&nbsp;
+  <img src="docs/ocr.png" width="330" alt="图片本地 OCR 取字">
+</p>
+<p align="center"><sub>左：JSON 一键美化　·　右：图片本地取字（OCR），不上传</sub></p>
 
 ## 隐私 Privacy
 
