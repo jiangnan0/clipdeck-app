@@ -48,11 +48,11 @@
 - **跨设备同步**（完整版）：通过你自己的网盘文件夹端到端加密同步，全程不经任何服务器
 
 <p align="center">
-  <img src="docs/format-json.png" width="330" alt="JSON 一键格式化">
+  <img src="docs/preview-tree.png" width="330" alt="JSON/XML/YAML 折叠树查看">
   &nbsp;&nbsp;
-  <img src="docs/ocr.png" width="330" alt="图片本地 OCR 取字">
+  <img src="docs/compare.png" width="330" alt="两条对比 diff">
 </p>
-<p align="center"><sub>左：JSON 一键美化　·　右：图片本地取字（OCR），不上传</sub></p>
+<p align="center"><sub>左：JSON / XML / YAML 折叠树查看　·　右：选两条做行级对比，红绿高亮差异</sub></p>
 
 ## 隐私 Privacy
 
