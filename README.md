@@ -34,8 +34,13 @@ It's not malware — the beta isn't code-signed yet, so the OS warns. Two clicks
 
 - **Windows**：蓝色"Windows 已保护你的电脑" → 左下 **"更多信息" → "仍要运行"**。<br>
   Blue SmartScreen → **"More info" → "Run anyway"**.
-- **macOS**：提示"无法打开" → 访达里**右键 App → "打开"**，或 **系统设置 → 隐私与安全性 → "仍要打开"**。<br>
+- **macOS**：提示**"无法打开 / 来源不明"** → 访达里**右键 App → "打开"**，或 **系统设置 → 隐私与安全性 → "仍要打开"**。<br>
   Right-click the app → **"Open"**, or **System Settings → Privacy &amp; Security → "Open Anyway"**.
+- **macOS**：若提示 **"已损坏，无法打开"（"is damaged"）**——这是系统对未签名应用加的"隔离"标记，不是真损坏。把 App 拖进**应用程序**后，打开「终端」运行下面这行，再正常打开即可：<br>
+  If you see **"is damaged and can't be opened"** — that's just the quarantine flag on an unsigned app, not real damage. Drag the app into **Applications**, then run this once in **Terminal** and open normally:
+  ```bash
+  xattr -cr /Applications/ClipDeck.app
+  ```
 
 > 正式版会做签名/公证，届时不再有此提示。· The stable release will be signed/notarized.
 
